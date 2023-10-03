@@ -1,4 +1,8 @@
 data
+.DS_Store
+_build
+results
+figures
 # Hide test files (if they exist)
 .ssh
 # Created by https://www.gitignore.io/api/python,jupyternotebooks,visualstudiocode

@@ -1,0 +1,28 @@
+format: jb-book
+root: README
+
+parts:
+  - caption: Setup
+    chapters:
+    - file: "install.ipynb"
+    - file: "download_data.ipynb"
+
+  - caption: Verification
+    chapters:
+    - file: "verification.ipynb"
+
+  - caption: Displacement and velocity estimation
+    chapters:
+    - file: "mean_traces.ipynb"
+    - file: "filtering.ipynb"
+    - file: "down_sampling.ipynb"
+
+  - caption: Drug effects
+    chapters:
+    - file: "drugs.ipynb"
+
+  - caption: Appendix
+    chapters:
+    - file: "reference_frame.ipynb"
+    - file: "spacing.ipynb"
+    - file: "motion_fl.ipynb"

@@ -12,6 +12,10 @@ bokeh==3.2.2
     # via dask
 cardiac-mps==2023.1.1
     # via mps-motion
+certifi==2023.7.22
+    # via requests
+charset-normalizer==3.3.0
+    # via requests
 click==8.1.7
     # via
     #   dask
@@ -40,6 +44,8 @@ fsspec==2023.9.2
     # via dask
 h5py==3.9.0
     # via mps-motion
+idna==3.4
+    # via requests
 imageio==2.31.4
     # via
     #   cardiac-mps
@@ -144,6 +150,8 @@ pyyaml==6.0.1
     # via
     #   bokeh
     #   dask
+requests==2.31.0
+    # via -r requirements.in
 scikit-image==0.21.0
     # via cardiac-mps
 scipy==1.11.3
@@ -170,6 +178,7 @@ tornado==6.3.3
     # via bokeh
 tqdm==4.66.1
     # via
+    #   -r requirements.in
     #   ap-features
     #   mps-motion
 typer==0.9.0
@@ -182,6 +191,8 @@ typing-extensions==4.8.0
     #   typer
 tzdata==2023.3
     # via pandas
+urllib3==2.0.5
+    # via requests
 xmltodict==0.13.0
     # via cardiac-mps
 xyzservices==2023.7.0
